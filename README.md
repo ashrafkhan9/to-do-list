@@ -1,8 +1,65 @@
-# React + Vite
+Vite Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and lightweight Todo App built using Vite, React, and Tailwind CSS. It allows users to add, edit, mark as complete, and delete todos efficiently.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add new todos
+
+Mark todos as complete/incomplete
+
+Edit existing todos
+
+Delete todos
+
+Responsive design
+
+🛠️ Tech Stack
+
+Frontend: React, Vite, Tailwind CSS
+
+State Management: useState (React Hooks)
+
+📂 Project Structure
+
+📦 vite-todo-app
+├── 📂 src
+│   ├── 📂 assets        # Icons and images
+│   ├── 📂 components    # Reusable components
+│   │   ├── TodoList.jsx # Renders all todos
+│   │   ├── TodoItems.jsx # Single todo item
+│   ├── 📂 pages         # Main pages (if applicable)
+│   ├── App.jsx          # Main App component
+│   ├── main.jsx         # Entry point
+│   ├── index.css        # Global styles
+├── 📄 package.json
+├── 📄 vite.config.js
+├── 📄 README.md
+└── 📄 .gitignore
+
+🏃‍♂️ Getting Started
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/your-username/vite-todo-app.git
+cd vite-todo-app
+
+2️⃣ Install Dependencies
+
+yarn install  # Or npm install
+
+3️⃣ Run the Development Server
+
+yarn dev  # Or npm run dev
+
+4️⃣ Build for Production
+
+yarn build  # Or npm run build
+
+🖼️ Screenshots
+![Todo App Screenshot](![Screenshot 2025-02-13 162130](https://github.com/user-attachments/assets/997b133d-a281-479f-ab4e-30c464bdfc5d)
+)
+
+🤝 Contributing
+
+Feel free to fork this project and submit pull requests. Suggestions and improvements are always welcome! 😊
