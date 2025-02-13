@@ -41,7 +41,7 @@ State Management: useState (React Hooks)
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/vite-todo-app.git
+[git clone https://github.com/vite-todo-app.git](https://github.com/ashrafkhan9/to-do-list)
 cd vite-todo-app
 
 2️⃣ Install Dependencies
